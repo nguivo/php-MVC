@@ -1,0 +1,26 @@
+{
+    "name": "ngu/php-mvc",
+    "description": "php MVC project",
+    "type": "project",
+    "license": "open source",
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ngu\\PhpMvc\\": "src/",
+            "App\\": "app/",
+            "Framework\\": "framework/"
+        }
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "authors": [
+        {
+            "name": "Ngu Ivo",
+            "email": "nguivo9@gmail.com"
+        }
+    ],
+    "require": {}
+}
