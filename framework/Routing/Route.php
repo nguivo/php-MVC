@@ -96,6 +96,7 @@ class Route
         $path = trim($path, '/');
         $path = "/{$path}/";
 
+
         // remove multiple '/' in a row
         $path = preg_replace('/[\/]{2,}/', '/', $path);
         return $path;
